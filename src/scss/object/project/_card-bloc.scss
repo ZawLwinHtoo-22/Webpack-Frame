@@ -1,0 +1,57 @@
+.card-activity {
+    
+    padding-bottom: 90px;
+    
+    &__wrap {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 0 auto;
+        
+    }
+
+    &__inner {
+        width: calc(100% / 3 - 16px);
+        text-align: center;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #fff;
+        margin-bottom: 25px;
+
+        
+    }
+
+    &__bloc {
+        width: 251px;
+        margin: 0 auto;
+        padding: 50px;
+
+        h4{
+            font-size: 18px;
+            font-family: 'Lato', sans-serif;
+            font-weight: 400;
+            margin-bottom: 20px;
+        }
+        p{
+            font-family: 'Poppins', sans-serif;
+            font-weight: 300;
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+        .img{
+            width: 88px;
+            height: 88px;
+            background-color: #325dff;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            margin-bottom: 25px;
+        }
+
+    }
+
+    
+}

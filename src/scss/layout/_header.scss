@@ -1,0 +1,51 @@
+.l-header {
+    position: fixed;
+    width: 100%;
+    margin-top: 20px;
+
+    &__top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+       margin-top: 40px;
+       margin-right: 50px;
+    }
+
+    &__logo {
+
+        a{
+            font: normal normal bold 28px/34px Dancing Script;
+            color: #D9F0FF;
+            opacity: 1;
+            text-decoration: none;
+            margin-left: 40px;
+        }
+        
+    }
+
+    &__nav {
+
+        width: 38%;
+        ul {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+
+            li {
+                
+                a {
+                    text-decoration: none;
+                    font: normal normal medium 12px/18px Poppins;
+                    letter-spacing: 2.4px;
+                    color: #D9F0FF;
+                    opacity: 1;
+
+                }
+            }
+
+        }
+    }
+
+
+
+}

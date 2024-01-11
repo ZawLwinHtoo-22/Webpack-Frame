@@ -1,0 +1,16 @@
+.l-footer {
+    width: 100%;
+    height: 140px;
+    background-color: #325dff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    address {
+        text-align: center;
+        font: normal normal normal 20px/30px Poppins;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        opacity: 0.52;
+    }
+}
